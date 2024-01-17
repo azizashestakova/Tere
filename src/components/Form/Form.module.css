@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: var(--color-green-75);
+  padding: 50px 70px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
+
+.text {
+}
+
+.input {
+  max-width: 500px;
+  width: 100%;
+}

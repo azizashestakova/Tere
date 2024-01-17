@@ -1,0 +1,33 @@
+.button {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  background-color: var(--color-black-00);
+  border: 0;
+  border-radius: 5px;
+  padding: 13px 32px;
+  color: var(--color-white-ff);
+  line-height: 26px;
+  font-weight: 800;
+  font-size: 24px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  min-height: 67px;
+  cursor: pointer;
+  /* TODO:: Сделать красивую анимацию */
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.buttonGreen {
+  font-family: "Gilroy-SemiBold", sans-serif;
+  text-transform: none;
+  background-color: var(--color-green-75);
+}
+
+.img {
+  height: 40px;
+  margin-right: 10px;
+}
